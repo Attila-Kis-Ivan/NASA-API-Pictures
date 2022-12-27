@@ -10,7 +10,6 @@ body {
   font-size: 1rem;
   line-height: 1.8rem;
 }
-
 .container {
   position: relative;
   display: flex;
@@ -35,7 +34,8 @@ body {
 /* Navigation */
 .navigation-container {
   position: fixed;
-  top: 0;
+  top: -20px;
+  border-top: 20px solid whitesmoke;
 }
 
 .navigation-items {
@@ -44,10 +44,10 @@ body {
 }
 
 .background {
-  background: whitesmoke;
   position: fixed;
   right: 0;
   width: 100%;
+  background: whitesmoke;
   height: 60px;
   z-index: -1;
 }
@@ -59,8 +59,9 @@ body {
 }
 
 .clickable:hover {
-  color: rgb(1, 86, 171);
+  color: rgb(0, 99, 199);
 }
+
 /* Images Container */
 .images-container {
   width: 800px;
@@ -81,8 +82,8 @@ body {
 
 .card-img-top {
   width: 100%;
-  height:auto;
-  border-radius: 5px 5px 0 0 ;
+  height: auto;
+  border-radius: 5px 5px 0 0;
 }
 
 .card-body {
@@ -93,8 +94,6 @@ body {
   margin: 10px auto;
   font-size: 24px;
 }
-
-
 
 /* Save Confirmation */
 .save-confirmed {
@@ -124,6 +123,7 @@ body {
   .images-container {
     width: 100%;
   }
+
   .card-title {
     font-size: 20px;
   }
@@ -131,5 +131,4 @@ body {
   .save-confirmed {
     right: 25px;
   }
-
 }
